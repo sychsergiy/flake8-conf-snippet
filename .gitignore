@@ -2,5 +2,5 @@
 venv
 .tox
 .nox
-
+.Pipfile.lock
 *.pyc

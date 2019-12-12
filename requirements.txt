@@ -1,0 +1,40 @@
+flake8==3.7.9
+isort==4.3.21
+
+### Awesome Flake8 Plugins
+
+# using `()`` instead of `\`
+flake8-broken-line==0.1.1
+
+# https://pypi.org/project/flake8-bugbear/
+flake8-bugbear==19.8.0
+
+# deny using builtins to define variables: max, zip, list, dict ...
+flake8-builtins==1.4.1
+
+# comma at the end of the line
+flake8-commas==2.0.0
+
+# improve your list comprehension code
+flake8-comprehensions==3.1.4
+
+# check pdb related code
+flake8-debugger==3.2.1
+
+# check func arguments not mutable types(list, dict ...)
+flake8-mutable==1.2.0
+
+# logging related warnings(not passing arguments through %s or format or f'')
+flake8-logging-format==0.6.0
+
+# avoid print statement
+flake8-print==3.1.4
+
+# define usage sing or double quotes for inline quotes and docs strings as well
+# todo: set quotes configuration
+flake8-quotes==2.1.1
+
+
+# integrate isort to flake8 (flake8-import-order can be used instead)
+# todo: add configuration for isort
+flake8-isort==2.8.0

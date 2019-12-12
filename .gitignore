@@ -1,2 +1,6 @@
 .idea
 venv
+.tox
+.nox
+
+*.pyc

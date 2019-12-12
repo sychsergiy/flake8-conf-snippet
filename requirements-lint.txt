@@ -1,7 +1,12 @@
 flake8==3.7.9
-isort==4.3.21
 
-### Awesome Flake8 Plugins
+
+## Reformatters
+isort==4.3.21
+black==18.6b4
+
+
+## Awesome Flake8 Plugins
 
 # using `()`` instead of `\`
 flake8-broken-line==0.1.1
@@ -31,10 +36,8 @@ flake8-logging-format==0.6.0
 flake8-print==3.1.4
 
 # define usage sing or double quotes for inline quotes and docs strings as well
-# todo: set quotes configuration
 flake8-quotes==2.1.1
 
 
 # integrate isort to flake8 (flake8-import-order can be used instead)
-# todo: add configuration for isort
 flake8-isort==2.8.0
